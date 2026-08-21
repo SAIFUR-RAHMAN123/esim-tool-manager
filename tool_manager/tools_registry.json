@@ -1,0 +1,18 @@
+{
+    "ngspice": {
+        "description": "Open-source SPICE circuit simulator used by eSim for analog simulation.",
+        "apt_package": "ngspice",
+        "choco_package": "ngspice",
+        "check_command": ["ngspice", "-v"],
+        "version_regex": "ngspice-(\\d+(?:\\.\\d+)?)",
+        "required_dependencies": ["gcc", "make"]
+    },
+    "kicad": {
+        "description": "Open-source EDA suite used by eSim for PCB design.",
+        "apt_package": "kicad",
+        "choco_package": "kicad",
+        "check_command": ["kicad-cli", "version"],
+        "version_regex": "(\\d+\\.\\d+\\.\\d+)",
+        "required_dependencies": ["python3"]
+    }
+}

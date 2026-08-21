@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+.pytest_cache/
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# Logs (runtime output, not source)
+logs/*.log
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+
+# Env files (never commit secrets)
+.env

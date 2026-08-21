@@ -1,0 +1,5 @@
+# No third-party dependencies — the project intentionally uses only
+# Python's standard library (argparse, subprocess, logging, json, re,
+# dataclasses) so it has zero install friction for evaluators.
+#
+# This file is kept for convention / future extension.
